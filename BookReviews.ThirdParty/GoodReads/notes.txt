@@ -1,0 +1,11 @@
+﻿GOODREADS API
+
+key: epWEWVGxvwNoWcI1p3CzQ
+secret: BtyYYNnBy3DuezePuNC01CezvNB2l4TV8QzAoM7EQ4
+
+API: http://www.goodreads.com/api
+
+SEARCH BY AUTHOR NAME: http://www.goodreads.com/api/author_url/Graham%20Greene?key=epWEWVGxvwNoWcI1p3CzQ
+RETRIEVE BY AUTHOR ID: http://www.goodreads.com/author/show.xml?id=2533&key=epWEWVGxvwNoWcI1p3CzQ
+BOOK BY ISBN: http://www.goodreads.com/book/isbn?format=xml&isbn=9780446612975&key=epWEWVGxvwNoWcI1p3CzQ (used to get book id)
+BOOK BY GOODREADS ID: http://www.goodreads.com/book/show?format=xml&key=epWEWVGxvwNoWcI1p3CzQ&id=537274
