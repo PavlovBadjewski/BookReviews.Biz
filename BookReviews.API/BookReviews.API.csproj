@@ -142,12 +142,6 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
-    <Content Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
-    <Content Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -164,11 +158,6 @@
       <Project>{3a2867fe-f0e7-4324-b8bf-380f873d40b1}</Project>
       <Name>BookReviews.ThirdParty</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="AppSettings.config">
-      <SubType>Designer</SubType>
-    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
