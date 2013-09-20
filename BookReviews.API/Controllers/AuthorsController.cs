@@ -15,7 +15,7 @@ namespace BookReviews.API.Controllers
 {
     public class AuthorsController : ApiController, IAuthorsController
     {
-        IAuthorService _authors = new AuthorService();
+        IAuthorService _authors = new AuthorService(); 
 
         [HttpGet]
         public AuthorViewModel RandomAuthor()
